@@ -14,7 +14,7 @@ const EvolutionChainListing: React.FC<{
     <>
       <div key={id} className="flex flex-col justify-between items-center mx-2">
         <Image src={spriteUrl} alt={pokemonName} width={64} height={64} />
-        <span className="text-center">{pokemonName}</span>
+        <span className="text-center capitalize">{pokemonName}</span>
       </div>
     </>
   );
