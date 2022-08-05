@@ -58,7 +58,7 @@ export const getPokemonEvolutionChain = async (
         chainLinks.push({
           id: thirdEvolutionsPokemon.id,
           name: thirdEvolutionsPokemon.name,
-          spriteUrl: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/${thirdEvolutionsPokemon.id}.png`,
+          spriteUrl: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${thirdEvolutionsPokemon.id}.png`,
         });
       }
 
